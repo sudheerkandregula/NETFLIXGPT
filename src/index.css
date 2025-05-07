@@ -1,0 +1,18 @@
+/* Custom scroll behavior for horizontal scroll */
+.scrollbar-hide::-webkit-scrollbar {
+    height: 0px;
+  }
+  
+  .scrollbar-hide:hover::-webkit-scrollbar {
+    height: 6px;
+  }
+  
+  .scrollbar-hide:hover::-webkit-scrollbar-thumb {
+    background-color: rgba(100, 100, 100, 0.7);
+    border-radius: 10px;
+  }
+  
+  .scrollbar-hide:hover::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  

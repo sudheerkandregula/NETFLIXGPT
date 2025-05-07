@@ -9,15 +9,12 @@ const MainContainer = () => {
 
     if (!movies || movies.length === 0) return null;
 
-
-
     const mainmovie = movies[0];
 
     const {original_title,overview,id} = mainmovie;
-    console.log(id);
 
   return (
-    <div>
+    <div className='relative pb-56'>
       <VideoTitle title={original_title} overview={overview}/>
       <VideoBackground movieId={id}/>
     </div>
