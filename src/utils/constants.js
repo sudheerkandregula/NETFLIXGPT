@@ -6,7 +6,7 @@ export const api_options = {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4YzI4ZGZhNGZkZjNjYWYyZTBjYzU4MDI4NTMxN2U3OSIsIm5iZiI6MS43NDY0MjYxMzkzMjA5OTk5ZSs5LCJzdWIiOiI2ODE4NTkxYmU2MmVhZmY4NjU4YjY5YjUiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.mu6lYMrr1ZtrBifQTiS7_A5OYoX-Zofh0p5GYtuFakM'
+      Authorization: 'Bearer '+ process.env.REACT_APP_TMDB_KEY,
     }
   };
 
@@ -15,3 +15,9 @@ export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
 export const BG_URL = 'https://assets.nflxext.com/ffe/siteui/vlv3/fa7be975-efc3-48c6-8188-f07fdd1aa476/web/IN-en-20250428-TRIFECTA-perspective_e045264e-b4d4-4a6f-b2cc-f95e3344a332_small.jpg';
 
 export const SUPPORTED_LANGUAGES = [{identifier:"en",name:"English"},{identifier:"hindi",name:"Hindi"},{identifier:"spanish",name:"Spanish"}];
+
+export const OPENAI_KEY = "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";
+
+export const Google_api = "AIzaSyAHaUi4xBkmwNJiNEP-wTo53b_NQdS_h5g";
+
+export const openrouter_key = process.env.REACT_APP_openrouter_key;
