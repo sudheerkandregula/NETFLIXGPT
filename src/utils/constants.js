@@ -16,8 +16,5 @@ export const BG_URL = 'https://assets.nflxext.com/ffe/siteui/vlv3/fa7be975-efc3-
 
 export const SUPPORTED_LANGUAGES = [{identifier:"en",name:"English"},{identifier:"hindi",name:"Hindi"},{identifier:"spanish",name:"Spanish"}];
 
-export const OPENAI_KEY = "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";
-
-export const Google_api = "AIzaSyAHaUi4xBkmwNJiNEP-wTo53b_NQdS_h5g";
 
 export const openrouter_key = process.env.REACT_APP_openrouter_key;
